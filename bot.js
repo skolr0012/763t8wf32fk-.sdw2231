@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require("./config.json");
 const fs = require("fs");
 const reply = JSON.parse(fs.readFileSync('./replys.json' , 'utf8'));
 const mmss = require('ms');
@@ -21,7 +20,7 @@ const temp = JSON.parse(fs.readFileSync('./temp.json', 'utf8'));
 
 
 
-client.login('NTAzOTQwMDQzMjM3MzU5NjIy.Dtb9wA.O7oRAmIIswzOU66869jWx1l0byA');
+client.login('');
 
 
 
